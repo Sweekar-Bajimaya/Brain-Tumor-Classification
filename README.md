@@ -92,7 +92,12 @@ The dataset consists of MRI images organized into training and test sets, each c
 
 The model successfully classified brain tumors with high accuracy. The final architecture (with transfer learning) significantly improved results compared to the custom CNN baseline.
 
-*(Insert training graphs or accuracy tables here if available)*
+![image](https://github.com/user-attachments/assets/fae068ca-a7bf-475d-aa12-0143e7f2970f)
+![image](https://github.com/user-attachments/assets/06dfa944-0648-48a6-b3ec-b659c86456c9)
+![image](https://github.com/user-attachments/assets/bc86511a-2050-4301-8766-63c0f30f3945)
+![image](https://github.com/user-attachments/assets/0cda53db-ed74-4d5c-a841-ccbf0fcc08a2)
+
+
 
 ---
 
