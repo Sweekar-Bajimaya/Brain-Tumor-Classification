@@ -83,8 +83,21 @@ The dataset consists of MRI images organized into training and test sets, each c
 ## 📈 Evaluation
 
 - Classification Report
-- Confusion Matrix
-- Accuracy, Precision, Recall, F1-Score
+  
+| Class             | Precision | Recall | F1-score | Support |
+|------------------|-----------|--------|----------|---------|
+| glioma_tumor      | 1.00      | 0.49   | 0.65     | 181     |
+| meningioma_tumor  | 0.64      | 0.65   | 0.64     | 183     |
+| normal            | 0.61      | 0.97   | 0.75     | 88      |
+| pituitary_tumor   | 0.78      | 0.95   | 0.86     | 169     |
+
+|                  | Accuracy  | Macro Avg | Weighted Avg |
+|------------------|-----------|-----------|--------------|
+| **Total (621)**  | **0.73**  | 0.76 / 0.76 / 0.73 | 0.78 / 0.73 / 0.72 |
+
+> **Note**: Macro Avg and Weighted Avg rows list precision / recall / f1-score respectively.
+  
+
 
 ---
 
